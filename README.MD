@@ -8,6 +8,7 @@ This code was originally hosted on the Frontera system for private use by the Sc
 Speed was an important consideration in this project and we were looking to optimize for it to avoid taking up compute time on Frontera, especially seeing as this was meant to be run in an interactive development environment. Thus, we chose Pydantic to organize schemas, validate handoffs between agents, and reject malformed outputs due to its speed.
 
 **Pipeline steps**
+
 The agent had to be able to perform these steps in sequence:
 1. Read input files in from input_files
 2. Inspect and summarize their contents for the LLM
@@ -18,6 +19,7 @@ The agent had to be able to perform these steps in sequence:
 7. Make web app runnable with npm command
 
 **Overview**
+
                 ┌──────────────────────────────┐
                 │        User Prompt           │
                 │  + input_files/ directory   │
