@@ -111,20 +111,21 @@ This is a four-agent (Supervisor, file analysis, app planner, and code generator
 
 **Pipeline can be run by:**
 
-pip install -r requirements.txt
-ollama serve
-ollama pull qwen2.5-coder:14b
-bash run.sh "[PROMPT HERE]"
+*- pip install -r requirements.txt*
+*- ollama serve*
+*- ollama pull qwen2.5-coder:14b*
+*- bash run.sh "[PROMPT HERE]"*
 
 *Example prompts may include: 'Turn these input files as .csv data into a website dashboard', 'add these pictures of cats to a fake adoption website for the Houston SPCA', or 'Create a clean executive dashboard with KPI cards, revenue trends, and employee performance metrics using the .csv data attached. Use a minimal UI style'.*
 
 **Site can be run in browser by:**
 
-Run generated app with:
-cd outputs/run_YYYY_MM_DD_HH_MM_SS/generated_app
-npm install
-npm run dev -- --host 0.0.0.0 --port [PORT OF CHOICE HERE (3000)]
+*- Run generated app with:*
+*- cd outputs/run_YYYY_MM_DD_HH_MM_SS/generated_app*
+*- npm install*
+*- npm run dev -- --host 0.0.0.0 --port [PORT OF CHOICE HERE (3000)]*
 
+*Only works if you keep the stack React/Vite!*
 
 It follows the systems messaging interface protocol with chain-of-thought for feedback loops. 
 
