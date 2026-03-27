@@ -19,6 +19,7 @@ The agent had to be able to perform these steps in sequence:
 7. Make web app runnable with npm command
 
 **Overview**
+```
 
                 ┌──────────────────────────────┐
                 │        User Prompt           │
@@ -102,6 +103,7 @@ The agent had to be able to perform these steps in sequence:
      │ app_plan.json                │                          │ (npm run dev)               │
      │ validation_report.json       │                          └──────────────────────────────┘
      └──────────────────────────────┘
+```
 
 **Running Pipeline**
 
