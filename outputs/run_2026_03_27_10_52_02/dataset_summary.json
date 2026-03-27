@@ -1,0 +1,137 @@
+{
+  "files": [
+    {
+      "path": "input_files\\adoptions.csv",
+      "name": "adoptions.csv",
+      "file_type": "csv",
+      "rows": 6,
+      "columns": [
+        "date",
+        "region",
+        "site",
+        "adoptions",
+        "revenue"
+      ],
+      "sample_rows": [
+        {
+          "date": "2026-03-01",
+          "region": "North",
+          "site": "Harris County",
+          "adoptions": "14",
+          "revenue": "5600"
+        },
+        {
+          "date": "2026-03-01",
+          "region": "South",
+          "site": "Harris County",
+          "adoptions": "9",
+          "revenue": "3600"
+        },
+        {
+          "date": "2026-03-02",
+          "region": "West",
+          "site": "Westlake Hills County",
+          "adoptions": "18",
+          "revenue": "8100"
+        },
+        {
+          "date": "2026-03-02",
+          "region": "East",
+          "site": "Swan County",
+          "adoptions": "11",
+          "revenue": "4950"
+        },
+        {
+          "date": "2026-03-03",
+          "region": "North",
+          "site": "Westlake Hills County",
+          "adoptions": "7",
+          "revenue": "4200"
+        }
+      ],
+      "summary": "CSV file with 6 rows and 5 columns."
+    },
+    {
+      "path": "input_files\\employees.csv",
+      "name": "employees.csv",
+      "file_type": "csv",
+      "rows": 5,
+      "columns": [
+        "employee_id",
+        "name",
+        "department",
+        "hours_worked",
+        "tasks_completed",
+        "location"
+      ],
+      "sample_rows": [
+        {
+          "employee_id": "E001",
+          "name": "Avery",
+          "department": "Engineering",
+          "hours_worked": "8.5",
+          "tasks_completed": "6",
+          "location": "Austin"
+        },
+        {
+          "employee_id": "E002",
+          "name": "Jordan",
+          "department": "Sales",
+          "hours_worked": "7.5",
+          "tasks_completed": "8",
+          "location": "Houston"
+        },
+        {
+          "employee_id": "E003",
+          "name": "Riley",
+          "department": "Operations",
+          "hours_worked": "9.0",
+          "tasks_completed": "5",
+          "location": "Dallas"
+        },
+        {
+          "employee_id": "E004",
+          "name": "Parker",
+          "department": "Engineering",
+          "hours_worked": "8.0",
+          "tasks_completed": "7",
+          "location": "Austin"
+        },
+        {
+          "employee_id": "E005",
+          "name": "Quinn",
+          "department": "Sales",
+          "hours_worked": "8.2",
+          "tasks_completed": "9",
+          "location": "San Marcos"
+        }
+      ],
+      "summary": "CSV file with 5 rows and 6 columns."
+    },
+    {
+      "path": "input_files\\notes.txt",
+      "name": "notes.txt",
+      "file_type": "txt",
+      "rows": null,
+      "columns": [],
+      "sample_rows": [],
+      "summary": "Text-like file preview: \nBuild a simple executive dashboard.\nPrioritize KPIs for revenue, units sold, total employees represented, average hours worked, and tasks completed.\nInclude at least one chart for sales trends and one chart for employee performance by department if feasible.\nKeep the design clean and easy to demo locally.\n"
+    }
+  ],
+  "entities": [
+    "records",
+    "employees"
+  ],
+  "likely_relationships": [
+    "Possible joins may exist across similarly named identifier columns."
+  ],
+  "suggested_metrics": [
+    "hours_worked",
+    "revenue",
+    "tasks_completed"
+  ],
+  "caveats": [
+    "This dataset summary was produced by deterministic fallback logic because the model step failed."
+  ],
+  "combined_summary": "Dataset contains the files discovered in the input directory and can support a basic dashboard."
+}

@@ -1,0 +1,27 @@
+{
+  "app_name": "generated-dashboard",
+  "framework": "react-vite",
+  "language": "typescript",
+  "pages": [
+    "Dashboard"
+  ],
+  "charts": [],
+  "filters": [
+    "data source"
+  ],
+  "key_metrics": [
+    "hours_worked",
+    "revenue",
+    "tasks_completed"
+  ],
+  "design_notes": [
+    "Fallback plan used because planning agent failed: model 'qwen2.5-coder:14b' not found (status code: 404)"
+  ],
+  "dependencies": [
+    "react",
+    "react-dom",
+    "papaparse",
+    "recharts"
+  ],
+  "run_command": "npm install && npm run dev"
+}

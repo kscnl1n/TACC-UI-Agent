@@ -1,0 +1,7 @@
+
+employee_id,name,department,hours_worked,tasks_completed,location
+E001,Avery,Engineering,8.5,6,Austin
+E002,Jordan,Sales,7.5,8,Houston
+E003,Riley,Operations,9.0,5,Dallas
+E004,Parker,Engineering,8.0,7,Austin
+E005,Quinn,Sales,8.2,9,San Marcos

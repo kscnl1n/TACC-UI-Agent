@@ -1,0 +1,13 @@
+:root { font-family: Inter, system-ui, sans-serif; color: #111827; background: #f3f4f6; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+.page { max-width: 1200px; margin: 0 auto; padding: 2rem; }
+.hero { margin-bottom: 1.5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin-bottom: 1.5rem; }
+.stack { display: grid; gap: 1rem; }
+.card { background: white; border-radius: 16px; padding: 1rem; box-shadow: 0 8px 24px rgba(0,0,0,0.06); }
+.kpi { font-size: 2rem; font-weight: 700; margin-top: 0.25rem; }
+.muted { color: #6b7280; }
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+th, td { text-align: left; padding: 0.5rem; border-bottom: 1px solid #e5e7eb; }

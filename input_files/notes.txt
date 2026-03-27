@@ -1,0 +1,5 @@
+
+Build a simple executive dashboard.
+Prioritize KPIs for revenue, units sold, total employees represented, average hours worked, and tasks completed.
+Include at least one chart for sales trends and one chart for employee performance by department if feasible.
+Keep the design clean and easy to demo locally.
